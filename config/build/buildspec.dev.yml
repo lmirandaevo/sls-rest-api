@@ -24,7 +24,7 @@ artifacts:
     - location
     - location
   name: artifact-name
-  discard-paths: no | yes
+  discard-paths: yes
   base-directory: location
   exclude-paths: excluded paths
   enable-symlinks: yes
