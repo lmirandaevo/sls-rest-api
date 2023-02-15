@@ -36,4 +36,4 @@ artifacts:
       name: MysProjectArtifacts
 cache:
   paths:
-    - 'notes/node_modules/**/*''
+    - 'notes/node_modules/**/*'
