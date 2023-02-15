@@ -1,0 +1,20 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "<!-- title: 'AWS NodeJS Example' description: 'This template demonstrates how to deploy a NodeJS function running on AWS Lambda using the traditional Serverless Framework.' layout: Doc framework: v2 platform: AWS language: nodeJS priority: 1 authorLink: 'https://github.com/serverless' authorName: 'Serverless, inc.' authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4' -->",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"All test passed\""
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "aws-jwt-verify": "^3.3.0",
+    "aws-sdk": "^2.1293.0"
+  },
+  "devDependencies": {
+    "prettier": "2.8.3",
+    "serverless-iam-roles-per-function": "^3.2.0"
+  }
+}
