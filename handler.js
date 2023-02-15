@@ -5,6 +5,7 @@ const DynamoDB = require("aws-sdk/clients/dynamodb");
 const documentClient = new DynamoDB.DocumentClient( { region: 'us-east-1' });
 const NOTES_TABLE_NAME = process.env.NOTES_TABLE_NAME;
 
+
 const send = (statusCode, data) => {
   return{
     statusCode,
