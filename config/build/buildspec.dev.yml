@@ -18,6 +18,7 @@ phases:
       - npm test
       - echo Packaging the service
       - serverless package --package my-artifact --stage dev
+      - serverless login
 artifacts:
   files:
     - location
