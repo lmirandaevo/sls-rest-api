@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "sls-rest-api",
+			"path": "../.."
+		},
+		{
+			"name": "notes",
+			"path": "../../../projects/notes"
+		}
+	],
+	"settings": {}
+}
