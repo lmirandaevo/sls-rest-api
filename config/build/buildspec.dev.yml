@@ -18,7 +18,7 @@ phases:
       - npm test
       - echo Packaging the service
       - serverless package --package my-artifact --stage dev
-      - serverless login
+      - sudo serverless login
 artifacts:
   files:
     - my-artifact/*
