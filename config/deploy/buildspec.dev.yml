@@ -16,7 +16,7 @@ phases:
     commands:
       - echo Deploying resources
       - sudo serverless login
-      - serverless deplou --stage dev
+      - serverless deploy --stage dev
 
 artifacts:
   files:
