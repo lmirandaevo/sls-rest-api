@@ -21,19 +21,9 @@ phases:
       - serverless login
 artifacts:
   files:
-    - location
-    - location
-  name: artifact-name
-  discard-paths: yes
-  base-directory: location
-  exclude-paths: excluded paths
-  enable-symlinks: yes
-  s3-prefix: prefix
-  secondary-artifacts:
-    artifactIdentifier:
-      files:
-        - my-artifact/*
-      name: MysProjectArtifacts
+    - my-artifact/*
+  name: MyProjectArtifacts
+  
 cache:
   paths:
     - 'node_modules/**/*'
